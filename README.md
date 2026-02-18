@@ -1,8 +1,8 @@
-# 🍏 Green Mart
+#  Green Mart
 
 A simple grocery shopping application built with **Flutter**.
 
- ✨ Features
+  Features
 - **Authentication:** Login, Signup, and OTP Verification screens.
 - **Home & Explore:** Browse products by categories (Fruits, Oil, Meat, etc.).
 - **Product Details:** View product info, price, and add quantity.

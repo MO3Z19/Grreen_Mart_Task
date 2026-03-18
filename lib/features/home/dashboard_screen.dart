@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../../core/constants/app_colors.dart';
 import 'home_screen.dart';
 import '../explore/explore_screen.dart';
+import '../cart/page/cart_screen.dart';
+import '../account/page/account_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -16,9 +18,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
   final List<Widget> screens = [
     const HomeScreen(),
     const ExploreScreen(),
-    const Center(child: Text("Cart")),
+    const CartScreen(),
     const Center(child: Text("Favourite")),
-    const Center(child: Text("Account")),
+    const AccountScreen(),
   ];
 
   @override
